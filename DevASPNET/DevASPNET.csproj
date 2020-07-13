@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FrmASPNET.aspx" />
+    <Content Include="FrmResponseWrite.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="FrmASPNET.aspx.designer.cs">
       <DependentUpon>FrmASPNET.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmResponseWrite.aspx.cs">
+      <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmResponseWrite.aspx.designer.cs">
+      <DependentUpon>FrmResponseWrite.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
