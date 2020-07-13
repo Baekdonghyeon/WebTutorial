@@ -11,7 +11,7 @@ namespace DevASPNET
 {
 
 
-    public partial class FrmResponseWrite
+    public partial class FrmRequestUserHostAddress
     {
 
         /// <summary>
@@ -24,21 +24,30 @@ namespace DevASPNET
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnClick 컨트롤입니다.
+        /// Label1 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnClick;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// btnJavaScript 컨트롤입니다.
+        /// Label2 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnJavaScript;
+        protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// Label3 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label3;
     }
 }

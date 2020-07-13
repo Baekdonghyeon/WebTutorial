@@ -11,7 +11,22 @@ namespace DevASPNET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Response.Expires = -1;
 
+            Response.Buffer = true;
+
+        }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            Response.Write("<span style='color:blue;'>반갑습니다.</span><br />");
+        }
+
+        protected void btnJavaScript_Click(object sender, EventArgs e)
+        {
+            string strJs = @"<script language='JavaScript'>window.alert('안녕');</script>";
+
+            Response.Write(strJs);
         }
     }
 }
